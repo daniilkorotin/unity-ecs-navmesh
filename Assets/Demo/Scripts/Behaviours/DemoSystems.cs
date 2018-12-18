@@ -65,9 +65,9 @@ namespace Demo
             return _manager;
         }
 
-        protected override void OnCreateManager (int capacity)
+        protected override void OnCreateManager ()
         {
-            base.OnCreateManager (capacity);
+            base.OnCreateManager ();
             // create the system
             World.Active.CreateManager<NavAgentSystem> ();
             World.Active.GetOrCreateManager<NavAgentToTransfomMatrixSyncSystem> ();
@@ -82,7 +82,7 @@ namespace Demo
                 // typeof (SyncRotationToNavAgent),
                 // typeof (SyncPositionFromNavAgent),
                 // typeof (SyncRotationFromNavAgent),
-                typeof (TransformMatrix)
+                typeof (LocalToWorld)
             );
         }
 
@@ -132,7 +132,7 @@ namespace Demo
                 // optional for avoidance
                 // var navAvoidance = new NavAgentAvoidance(2f);
                 // manager.SetComponentData(entity, navAvoidance);
-                manager.AddSharedComponentData (entity, Getspawner ().Renderers[Random.Range (0, Getspawner ().Renderers.Length)].Value);
+                manager.AddSharedComponentData (entity, Getspawner ().Renderers[UnityEngine.Random.Range (0, Getspawner ().Renderers.Length)].Value);
             }
             return;
         }
@@ -237,7 +237,7 @@ namespace Demo
                 CachedPathText.text = $"Cached Paths: {navQuery.CachedCount}";
                 _nextUpdate = Time.time + 0.5f;
             }
-            var inputDeps = new DetectIdleAgentJob { data = data, needsPath = needsPath }.Schedule (data.Length, 64);
+            var inputDeps = new DetectIdleAgentJob { data = data, needsPath = needsPath.ToConcurrent() }.Schedule (data.Length, 64);
             inputDeps = new SetNextPathJob { data = data, needsPath = needsPath }.Schedule (inputDeps);
             inputDeps.Complete ();
         }
@@ -257,7 +257,7 @@ namespace Demo
         private int nextResidential = 0;
         private static BuildingCacheSystem instance;
 
-        protected override void OnCreateManager (int capacity)
+        protected override void OnCreateManager ()
         {
             instance = this;
         }

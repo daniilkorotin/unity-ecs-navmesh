@@ -83,7 +83,7 @@ var agent = Getmanager ().CreateArchetype (
     typeof (SyncRotationToNavAgent),   // optional
     typeof (SyncPositionFromNavAgent), // optional
     typeof (SyncRotationFromNavAgent), // optional
-    typeof (TransformMatrix)           // optional for instanced mesh rendering
+    typeof (LocalToWorld)              // optional for instanced mesh rendering
 );
 ```
 

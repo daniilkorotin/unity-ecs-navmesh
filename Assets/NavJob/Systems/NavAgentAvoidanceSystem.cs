@@ -114,8 +114,8 @@ namespace NavJob.Systems
                     mapSize = querySystem.MaxMapWidth,
                     agents = agent.Agents,
                     avoidances = agent.Avoidances,
-                    indexMap = indexMap,
-                    nextPositionMap = nextPositionMap
+                    indexMap = indexMap.ToConcurrent(),
+                    nextPositionMap = nextPositionMap.ToConcurrent()
                 };
                 var dt = Time.deltaTime;
                 var hashPositionsJobHandle = hashPositionsJob.Schedule (agent.Length, 64, inputDeps);
@@ -135,7 +135,7 @@ namespace NavJob.Systems
             return inputDeps;
         }
 
-        protected override void OnCreateManager (int capacity)
+        protected override void OnCreateManager ()
         {
             navMeshQuery = new NavMeshQuery (NavMeshWorld.GetDefaultWorld (), Allocator.Persistent, 128);
             indexMap = new NativeMultiHashMap<int, int> (100 * 1024, Allocator.Persistent);

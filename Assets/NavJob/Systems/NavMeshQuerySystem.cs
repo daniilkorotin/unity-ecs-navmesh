@@ -390,7 +390,7 @@ namespace NavJob.Systems
             return inputDeps;
         }
 
-        protected override void OnCreateManager (int capacity)
+        protected override void OnCreateManager ()
         {
             world = NavMeshWorld.GetDefaultWorld ();
             locationQuery = new NavMeshQuery (world, Allocator.Persistent);

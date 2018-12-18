@@ -9,7 +9,7 @@ using NavJob.Components;
 namespace NavJob.Systems
 {
     /// <summary>
-    /// Syncs the transform matrix from the nav agent to a TransformMatrix component
+    /// Syncs the transform matrix from the nav agent to a LocalToWorld component
     /// </summary>
     [UpdateAfter (typeof (NavAgentSystem))]
     [DisableAutoCreation]
@@ -18,9 +18,9 @@ namespace NavJob.Systems
 
         [BurstCompile]
         [RequireSubtractiveComponent (typeof (Position), typeof (Rotation))]
-        private struct NavAgentToTransfomMatrixSyncSystemJob : IJobProcessComponentData<NavAgent, TransformMatrix>
+        private struct NavAgentToTransfomMatrixSyncSystemJob : IJobProcessComponentData<NavAgent, LocalToWorld>
         {
-            public void Execute ([ReadOnly] ref NavAgent NavAgent, ref TransformMatrix Matrix)
+            public void Execute ([ReadOnly] ref NavAgent NavAgent, ref LocalToWorld Matrix)
             {
                 Matrix.Value = Matrix4x4.TRS (NavAgent.position, NavAgent.rotation, Vector3.one);
             }
@@ -28,7 +28,7 @@ namespace NavJob.Systems
 
         protected override JobHandle OnUpdate (JobHandle inputDeps)
         {
-            return new NavAgentToTransfomMatrixSyncSystemJob ().Schedule (this, 64, inputDeps);
+            return new NavAgentToTransfomMatrixSyncSystemJob ().Schedule (this, inputDeps);
         }
     }
 
@@ -51,7 +51,7 @@ namespace NavJob.Systems
 
         protected override JobHandle OnUpdate (JobHandle inputDeps)
         {
-            return new NavAgentFromPositionSyncSystemJob ().Schedule (this, 64, inputDeps);
+            return new NavAgentFromPositionSyncSystemJob ().Schedule (this, inputDeps);
         }
     }
 
@@ -74,7 +74,7 @@ namespace NavJob.Systems
 
         protected override JobHandle OnUpdate (JobHandle inputDeps)
         {
-            return new NavAgentToPositionSyncSystemJob ().Schedule (this, 64, inputDeps);
+            return new NavAgentToPositionSyncSystemJob ().Schedule(this, inputDeps);
         }
     }
 
@@ -97,7 +97,7 @@ namespace NavJob.Systems
 
         protected override JobHandle OnUpdate (JobHandle inputDeps)
         {
-            return new NavAgentFromRotationSyncSystemJob ().Schedule (this, 64, inputDeps);
+            return new NavAgentFromRotationSyncSystemJob ().Schedule (this, inputDeps);
         }
     }
 
@@ -120,7 +120,7 @@ namespace NavJob.Systems
 
         protected override JobHandle OnUpdate (JobHandle inputDeps)
         {
-            return new NavAgentToRotationSyncSystemJob ().Schedule (this, 64, inputDeps);
+            return new NavAgentToRotationSyncSystemJob ().Schedule (this, inputDeps);
         }
     }
 }

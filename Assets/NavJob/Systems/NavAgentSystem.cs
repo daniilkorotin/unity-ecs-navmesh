@@ -40,7 +40,7 @@ namespace NavJob.Systems
         {
             public int navMeshQuerySystemVersion;
             public InjectData data;
-            public NativeQueue<AgentData>.Concurrent needsWaypoint;
+            [ReadOnly] public NativeQueue<AgentData> needsWaypoint;
 
             public void Execute (int index)
             {
@@ -205,12 +205,12 @@ namespace NavJob.Systems
 
         protected static NavAgentSystem instance;
 
-        protected override void OnCreateManager (int capacity)
+        protected override void OnCreateManager ()
         {
             instance = this;
             querySystem.RegisterPathResolvedCallback (OnPathSuccess);
             querySystem.RegisterPathFailedCallback (OnPathError);
-            needsWaypoint = new NativeQueue<AgentData> (Allocator.Persistent);
+            needsWaypoint = new NativeQueue<AgentData>(Allocator.Persistent);
             pathFindingData = new NativeHashMap<int, AgentData> (0, Allocator.Persistent);
         }
 
