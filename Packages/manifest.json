@@ -2,8 +2,10 @@
   "dependencies": {
     "com.unity.ads": "2.0.8",
     "com.unity.analytics": "3.2.2",
+    "com.unity.burst": "0.2.4-preview.37",
     "com.unity.collab-proxy": "1.2.9",
     "com.unity.entities": "0.0.12-preview.21",
+    "com.unity.incrementalcompiler": "0.0.42-preview.30",
     "com.unity.mathematics": "0.0.12-preview.19",
     "com.unity.package-manager-ui": "0.0.0-builtin",
     "com.unity.purchasing": "2.0.3",
