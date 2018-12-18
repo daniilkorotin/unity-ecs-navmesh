@@ -1,2 +1,228 @@
- (0,0): [12/18/2018 06:52:07.552 PM] Unity incremental compiler server
- (0,0): [12/18/2018 06:52:07.723 PM] watchdog active on pid: 39722
+ (0,0): [12/18/2018 10:37:41.318 PM] Unity incremental compiler server
+ (0,0): [12/18/2018 10:37:41.463 PM] watchdog active on pid: 41343
+ (0,0): [12/18/2018 10:38:24.834 PM] UnityEngine.SpatialTracking.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:24.848 PM] UnityEngine.SpatialTracking.dll compiling...
+ (0,0): [12/18/2018 10:38:24.852 PM] Unity.Properties.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:24.863 PM] Unity.Properties.dll compiling...
+ (0,0): [12/18/2018 10:38:24.863 PM] Unity.Burst.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:24.873 PM] Unity.Burst.dll compiling...
+ (0,0): [12/18/2018 10:38:24.984 PM] Unity.TextMeshPro.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:24.995 PM] Unity.TextMeshPro.dll compiling...
+ (0,0): [12/18/2018 10:38:25.073 PM] Unity.Mathematics.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:25.089 PM] Unity.Mathematics.dll compiling...
+ (0,0): [12/18/2018 10:38:25.177 PM] NavMeshComponents.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:25.192 PM] NavMeshComponents.dll compiling...
+ (0,0): [12/18/2018 10:38:25.271 PM] Unity.Analytics.DataPrivacy.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:25.282 PM] Unity.Analytics.DataPrivacy.dll compiling...
+ (0,0): [12/18/2018 10:38:25.370 PM] Unity.Timeline.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:25.381 PM] Unity.Timeline.dll compiling...
+ (0,0): [12/18/2018 10:38:26.662 PM] Unity.Analytics.DataPrivacy.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Analytics.DataPrivacy.dll
+ (0,0): [12/18/2018 10:38:26.663 PM] NavMeshComponents.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/NavMeshComponents.dll
+ (0,0): [12/18/2018 10:38:26.663 PM] Unity.Properties.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Properties.dll
+ (0,0): [12/18/2018 10:38:26.662 PM] Unity.Burst.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Burst.dll
+ (0,0): [12/18/2018 10:38:26.682 PM] Unity.Analytics.DataPrivacy.dll compilation finished in 1400ms  source files re-parsed: 3 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:26.682 PM] NavMeshComponents.dll compilation finished in 1490ms  source files re-parsed: 4 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:26.663 PM] UnityEngine.SpatialTracking.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/UnityEngine.SpatialTracking.dll
+ (0,0): [12/18/2018 10:38:26.696 PM] NavMeshComponents.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:26.696 PM] Unity.Analytics.DataPrivacy.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:26.740 PM] Unity.Burst.dll compilation finished in 1867ms  source files re-parsed: 3 metadata reloaded: 177
+ (0,0): [12/18/2018 10:38:26.740 PM] Unity.Properties.dll compilation finished in 1877ms  source files re-parsed: 34 metadata reloaded: 180
+ (0,0): [12/18/2018 10:38:26.740 PM] UnityEngine.SpatialTracking.dll compilation finished in 1892ms  source files re-parsed: 3 metadata reloaded: 180
+ (0,0): [12/18/2018 10:38:26.751 PM] Unity.Burst.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:26.762 PM] UnityEngine.SpatialTracking.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:26.751 PM] Unity.Properties.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:26.764 PM] Unity.Timeline.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Timeline.dll
+ (0,0): [12/18/2018 10:38:26.786 PM] Unity.Timeline.dll compilation finished in 1404ms  source files re-parsed: 67 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:26.807 PM] Unity.Timeline.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:27.143 PM] Unity.TextMeshPro.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.TextMeshPro.dll
+ (0,0): [12/18/2018 10:38:27.157 PM] Unity.TextMeshPro.dll compilation finished in 2162ms  source files re-parsed: 45 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:27.168 PM] Unity.TextMeshPro.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:27.532 PM] Unity.Mathematics.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Mathematics.dll
+ (0,0): [12/18/2018 10:38:27.552 PM] Unity.Mathematics.dll compilation finished in 2463ms  source files re-parsed: 82 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:27.563 PM] Unity.Mathematics.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:28.319 PM] Unity.Timeline.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:28.330 PM] Unity.Timeline.dll compiling...
+ (0,0): [12/18/2018 10:38:28.460 PM] Unity.TextMeshPro.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:28.472 PM] Unity.TextMeshPro.dll compiling...
+ (0,0): [12/18/2018 10:38:28.572 PM] Unity.Mathematics.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:28.583 PM] Unity.Mathematics.dll compiling...
+ (0,0): [12/18/2018 10:38:28.711 PM] Unity.Timeline.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Timeline.dll
+ (0,0): [12/18/2018 10:38:28.726 PM] Unity.Timeline.dll compilation finished in 396ms  source files re-parsed: 67 metadata reloaded: 73
+ (0,0): [12/18/2018 10:38:28.727 PM] Unity.Properties.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:28.739 PM] Unity.Properties.dll compiling...
+ (0,0): [12/18/2018 10:38:28.766 PM] Unity.Timeline.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:28.854 PM] UnityEngine.SpatialTracking.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:28.864 PM] UnityEngine.SpatialTracking.dll compiling...
+ (0,0): [12/18/2018 10:38:29.045 PM] Unity.Analytics.DataPrivacy.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:29.056 PM] Unity.Analytics.DataPrivacy.dll compiling...
+ (0,0): [12/18/2018 10:38:29.076 PM] UnityEngine.SpatialTracking.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/UnityEngine.SpatialTracking.dll
+ (0,0): [12/18/2018 10:38:29.088 PM] UnityEngine.SpatialTracking.dll compilation finished in 223ms  source files re-parsed: 3 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:29.103 PM] UnityEngine.SpatialTracking.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:29.119 PM] NavMeshComponents.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:29.166 PM] NavMeshComponents.dll compiling...
+ (0,0): [12/18/2018 10:38:29.207 PM] Unity.Burst.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:29.232 PM] Unity.Burst.dll compiling...
+ (0,0): [12/18/2018 10:38:29.252 PM] Unity.Analytics.DataPrivacy.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Analytics.DataPrivacy.dll
+ (0,0): [12/18/2018 10:38:29.265 PM] Unity.Analytics.DataPrivacy.dll compilation finished in 208ms  source files re-parsed: 3 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:29.276 PM] Unity.Analytics.DataPrivacy.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:29.291 PM] Unity.PackageManagerUI.Editor.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:29.305 PM] Unity.PackageManagerUI.Editor.dll compiling...
+ (0,0): [12/18/2018 10:38:29.309 PM] Unity.Burst.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Burst.dll
+ (0,0): [12/18/2018 10:38:29.337 PM] Unity.Burst.dll compilation finished in 105ms  source files re-parsed: 3 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:29.338 PM] Unity.CollabProxy.Editor.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:38:29.342 PM] NavMeshComponents.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/NavMeshComponents.dll
+ (0,0): [12/18/2018 10:38:29.353 PM] Unity.CollabProxy.Editor.dll compiling...
+ (0,0): [12/18/2018 10:38:29.354 PM] Unity.Burst.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:29.375 PM] NavMeshComponents.dll compilation finished in 208ms  source files re-parsed: 4 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:29.407 PM] NavMeshComponents.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:29.425 PM] Unity.Properties.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Properties.dll
+ (0,0): [12/18/2018 10:38:29.533 PM] Unity.Properties.dll compilation finished in 794ms  source files re-parsed: 34 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:29.547 PM] Unity.Properties.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:29.588 PM] Unity.CollabProxy.Editor.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.CollabProxy.Editor.dll
+ (0,0): [12/18/2018 10:38:29.604 PM] Unity.CollabProxy.Editor.dll compilation finished in 250ms  source files re-parsed: 17 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:29.617 PM] Unity.CollabProxy.Editor.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:29.808 PM] Unity.PackageManagerUI.Editor.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.PackageManagerUI.Editor.dll
+ (0,0): [12/18/2018 10:38:29.822 PM] Unity.PackageManagerUI.Editor.dll compilation finished in 517ms  source files re-parsed: 71 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:29.838 PM] Unity.PackageManagerUI.Editor.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:30.012 PM] Unity.TextMeshPro.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.TextMeshPro.dll
+ (0,0): [12/18/2018 10:38:30.026 PM] Unity.TextMeshPro.dll compilation finished in 1554ms  source files re-parsed: 45 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:30.036 PM] Unity.TextMeshPro.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:38:30.931 PM] Unity.Mathematics.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Mathematics.dll
+ (0,0): [12/18/2018 10:38:30.946 PM] Unity.Mathematics.dll compilation finished in 2363ms  source files re-parsed: 82 metadata reloaded: 0
+ (0,0): [12/18/2018 10:38:30.957 PM] Unity.Mathematics.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:40:00.723 PM] Unity.Timeline.dll compiling...
+ (0,0): [12/18/2018 10:40:00.842 PM] Unity.TextMeshPro.dll compiling...
+ (0,0): [12/18/2018 10:40:00.880 PM] Unity.Timeline.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Timeline.dll
+ (0,0): [12/18/2018 10:40:00.893 PM] Unity.Timeline.dll compilation finished in 169ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:40:00.908 PM] Unity.Timeline.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:40:00.923 PM] Unity.Timeline.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:40:00.939 PM] Unity.Mathematics.dll compiling...
+ (0,0): [12/18/2018 10:40:01.116 PM] Unity.Analytics.DataPrivacy.dll compiling...
+ (0,0): [12/18/2018 10:40:01.180 PM] Unity.Analytics.DataPrivacy.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Analytics.DataPrivacy.dll
+ (0,0): [12/18/2018 10:40:01.184 PM] NavMeshComponents.dll compiling...
+ (0,0): [12/18/2018 10:40:01.193 PM] Unity.Analytics.DataPrivacy.dll compilation finished in 76ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:40:01.203 PM] Unity.Analytics.DataPrivacy.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.214 PM] Unity.Analytics.DataPrivacy.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.227 PM] Unity.Properties.dll compiling...
+ (0,0): [12/18/2018 10:40:01.275 PM] NavMeshComponents.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/NavMeshComponents.dll
+ (0,0): [12/18/2018 10:40:01.290 PM] NavMeshComponents.dll compilation finished in 105ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:40:01.301 PM] NavMeshComponents.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.314 PM] NavMeshComponents.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.324 PM] Unity.Burst.dll compiling...
+ (0,0): [12/18/2018 10:40:01.364 PM] Unity.Burst.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Burst.dll
+ (0,0): [12/18/2018 10:40:01.378 PM] Unity.Burst.dll compilation finished in 54ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:40:01.392 PM] Unity.Burst.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.405 PM] Unity.Burst.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.414 PM] Unity.TextMeshPro.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.TextMeshPro.dll
+ (0,0): [12/18/2018 10:40:01.415 PM] Unity.Properties.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Properties.dll
+ (0,0): [12/18/2018 10:40:01.434 PM] Unity.TextMeshPro.dll compilation finished in 592ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:40:01.437 PM] Unity.Properties.dll compilation finished in 210ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:40:01.441 PM] UnityEngine.SpatialTracking.dll compiling...
+ (0,0): [12/18/2018 10:40:01.448 PM] Unity.TextMeshPro.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.449 PM] Unity.Properties.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.459 PM] Unity.Properties.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.459 PM] Unity.TextMeshPro.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.488 PM] UnityEngine.SpatialTracking.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/UnityEngine.SpatialTracking.dll
+ (0,0): [12/18/2018 10:40:01.502 PM] UnityEngine.SpatialTracking.dll compilation finished in 60ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:40:01.518 PM] UnityEngine.SpatialTracking.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.535 PM] UnityEngine.SpatialTracking.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.553 PM] Unity.PackageManagerUI.Editor.dll compiling...
+ (0,0): [12/18/2018 10:40:01.680 PM] Unity.CollabProxy.Editor.dll compiling...
+ (0,0): [12/18/2018 10:40:01.769 PM] Unity.CollabProxy.Editor.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.CollabProxy.Editor.dll
+ (0,0): [12/18/2018 10:40:01.782 PM] Unity.CollabProxy.Editor.dll compilation finished in 101ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:40:01.793 PM] Unity.CollabProxy.Editor.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.804 PM] Unity.CollabProxy.Editor.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.811 PM] Unity.PackageManagerUI.Editor.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.PackageManagerUI.Editor.dll
+ (0,0): [12/18/2018 10:40:01.824 PM] Unity.PackageManagerUI.Editor.dll compilation finished in 271ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:40:01.834 PM] Unity.PackageManagerUI.Editor.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:40:01.845 PM] Unity.PackageManagerUI.Editor.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:40:02.387 PM] Unity.Mathematics.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Mathematics.dll
+ (0,0): [12/18/2018 10:40:02.405 PM] Unity.Mathematics.dll compilation finished in 1466ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:40:02.416 PM] Unity.Mathematics.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:40:02.428 PM] Unity.Mathematics.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.274 PM] Unity.Timeline.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.285 PM] Unity.Timeline.dll compiling...
+ (0,0): [12/18/2018 10:41:25.402 PM] Unity.TextMeshPro.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.413 PM] Unity.TextMeshPro.dll compiling...
+ (0,0): [12/18/2018 10:41:25.482 PM] Unity.Analytics.DataPrivacy.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.483 PM] Unity.Timeline.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Timeline.dll
+ (0,0): [12/18/2018 10:41:25.493 PM] Unity.Analytics.DataPrivacy.dll compiling...
+ (0,0): [12/18/2018 10:41:25.503 PM] Unity.Timeline.dll compilation finished in 218ms  source files re-parsed: 67 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:25.514 PM] Unity.Timeline.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.530 PM] Unity.Analytics.DataPrivacy.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Analytics.DataPrivacy.dll
+ (0,0): [12/18/2018 10:41:25.555 PM] Unity.Analytics.DataPrivacy.dll compilation finished in 61ms  source files re-parsed: 3 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:25.578 PM] Unity.Analytics.DataPrivacy.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.598 PM] Unity.CollabProxy.Editor.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.610 PM] Unity.CollabProxy.Editor.dll compiling...
+ (0,0): [12/18/2018 10:41:25.673 PM] Unity.CollabProxy.Editor.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.CollabProxy.Editor.dll
+ (0,0): [12/18/2018 10:41:25.684 PM] Unity.CollabProxy.Editor.dll compilation finished in 74ms  source files re-parsed: 17 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:25.686 PM] Unity.PackageManagerUI.Editor.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.695 PM] Unity.CollabProxy.Editor.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.697 PM] Unity.PackageManagerUI.Editor.dll compiling...
+ (0,0): [12/18/2018 10:41:25.803 PM] NavMeshComponents.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.820 PM] NavMeshComponents.dll compiling...
+ (0,0): [12/18/2018 10:41:25.861 PM] Unity.PackageManagerUI.Editor.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.PackageManagerUI.Editor.dll
+ (0,0): [12/18/2018 10:41:25.873 PM] Unity.PackageManagerUI.Editor.dll compilation finished in 176ms  source files re-parsed: 71 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:25.884 PM] Unity.PackageManagerUI.Editor.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.879 PM] NavMeshComponents.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/NavMeshComponents.dll
+ (0,0): [12/18/2018 10:41:25.895 PM] UnityEngine.SpatialTracking.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.906 PM] UnityEngine.SpatialTracking.dll compiling...
+ (0,0): [12/18/2018 10:41:25.908 PM] NavMeshComponents.dll compilation finished in 88ms  source files re-parsed: 4 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:25.918 PM] NavMeshComponents.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.969 PM] UnityEngine.SpatialTracking.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/UnityEngine.SpatialTracking.dll
+ (0,0): [12/18/2018 10:41:25.981 PM] UnityEngine.SpatialTracking.dll compilation finished in 74ms  source files re-parsed: 3 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:25.983 PM] Unity.TextMeshPro.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.TextMeshPro.dll
+ (0,0): [12/18/2018 10:41:25.991 PM] UnityEngine.SpatialTracking.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:25.996 PM] Unity.TextMeshPro.dll compilation finished in 582ms  source files re-parsed: 45 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:26.007 PM] Unity.TextMeshPro.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:54.182 PM] Unity.Timeline.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:54.193 PM] Unity.Timeline.dll compiling...
+ (0,0): [12/18/2018 10:41:54.280 PM] Unity.TextMeshPro.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:54.292 PM] Unity.TextMeshPro.dll compiling...
+ (0,0): [12/18/2018 10:41:54.380 PM] Unity.Mathematics.dll compiling...
+ (0,0): [12/18/2018 10:41:54.393 PM] Unity.Timeline.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Timeline.dll
+ (0,0): [12/18/2018 10:41:54.406 PM] Unity.Timeline.dll compilation finished in 213ms  source files re-parsed: 67 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:54.418 PM] Unity.Timeline.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:54.544 PM] Unity.Analytics.DataPrivacy.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:54.555 PM] Unity.Analytics.DataPrivacy.dll compiling...
+ (0,0): [12/18/2018 10:41:54.595 PM] NavMeshComponents.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:54.615 PM] Unity.Analytics.DataPrivacy.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Analytics.DataPrivacy.dll
+ (0,0): [12/18/2018 10:41:54.615 PM] NavMeshComponents.dll compiling...
+ (0,0): [12/18/2018 10:41:54.628 PM] Unity.Analytics.DataPrivacy.dll compilation finished in 72ms  source files re-parsed: 3 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:54.638 PM] Unity.Analytics.DataPrivacy.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:54.671 PM] Unity.Properties.dll compiling...
+ (0,0): [12/18/2018 10:41:54.681 PM] NavMeshComponents.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/NavMeshComponents.dll
+ (0,0): [12/18/2018 10:41:54.694 PM] NavMeshComponents.dll compilation finished in 78ms  source files re-parsed: 4 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:54.705 PM] NavMeshComponents.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:54.793 PM] Unity.Burst.dll compiling...
+ (0,0): [12/18/2018 10:41:54.845 PM] Unity.Burst.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Burst.dll
+ (0,0): [12/18/2018 10:41:54.863 PM] Unity.Burst.dll compilation finished in 70ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:54.876 PM] Unity.Burst.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:54.887 PM] Unity.Burst.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:54.898 PM] UnityEngine.SpatialTracking.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:54.910 PM] UnityEngine.SpatialTracking.dll compiling...
+ (0,0): [12/18/2018 10:41:54.994 PM] UnityEngine.SpatialTracking.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/UnityEngine.SpatialTracking.dll
+ (0,0): [12/18/2018 10:41:55.004 PM] Unity.Properties.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Properties.dll
+ (0,0): [12/18/2018 10:41:55.005 PM] Unity.PackageManagerUI.Editor.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:55.007 PM] UnityEngine.SpatialTracking.dll compilation finished in 97ms  source files re-parsed: 3 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:55.021 PM] Unity.Properties.dll compilation finished in 350ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:55.021 PM] UnityEngine.SpatialTracking.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:55.021 PM] Unity.PackageManagerUI.Editor.dll compiling...
+ (0,0): [12/18/2018 10:41:55.032 PM] Unity.Properties.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:55.042 PM] Unity.Properties.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:55.087 PM] Unity.CollabProxy.Editor.dll: no prior compilation found in cache. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:55.100 PM] Unity.CollabProxy.Editor.dll compiling...
+ (0,0): [12/18/2018 10:41:55.141 PM] Unity.TextMeshPro.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.TextMeshPro.dll
+ (0,0): [12/18/2018 10:41:55.161 PM] Unity.TextMeshPro.dll compilation finished in 869ms  source files re-parsed: 45 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:55.171 PM] Unity.TextMeshPro.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:55.309 PM] Unity.CollabProxy.Editor.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.CollabProxy.Editor.dll
+ (0,0): [12/18/2018 10:41:55.321 PM] Unity.CollabProxy.Editor.dll compilation finished in 221ms  source files re-parsed: 17 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:55.332 PM] Unity.CollabProxy.Editor.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:55.364 PM] Unity.PackageManagerUI.Editor.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.PackageManagerUI.Editor.dll
+ (0,0): [12/18/2018 10:41:55.376 PM] Unity.PackageManagerUI.Editor.dll compilation finished in 354ms  source files re-parsed: 71 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:55.387 PM] Unity.PackageManagerUI.Editor.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:41:55.956 PM] Unity.Mathematics.dll: emitting IL to : /Users/admin/temp/unity-ecs-navmesh/Temp/Unity.Mathematics.dll
+ (0,0): [12/18/2018 10:41:55.971 PM] Unity.Mathematics.dll compilation finished in 1591ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [12/18/2018 10:41:55.981 PM] Unity.Mathematics.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 41343
+ (0,0): [12/18/2018 10:41:55.992 PM] Unity.Mathematics.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 41343
+ (0,0): [12/18/2018 10:42:40.280 PM] watchdog triggered an exit

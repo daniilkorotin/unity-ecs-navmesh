@@ -40,7 +40,7 @@ namespace NavJob.Systems
         {
             public int navMeshQuerySystemVersion;
             public InjectData data;
-            [ReadOnly] public NativeQueue<AgentData> needsWaypoint;
+            public NativeQueue<AgentData>.Concurrent needsWaypoint;
 
             public void Execute (int index)
             {
@@ -167,7 +167,7 @@ namespace NavJob.Systems
         protected override JobHandle OnUpdate (JobHandle inputDeps)
         {
             var dt = Time.deltaTime;
-            inputDeps = new DetectNextWaypointJob { data = data, needsWaypoint = needsWaypoint, navMeshQuerySystemVersion = querySystem.Version }.Schedule (data.Length, 64, inputDeps);
+            inputDeps = new DetectNextWaypointJob { data = data, needsWaypoint = needsWaypoint.ToConcurrent(), navMeshQuerySystemVersion = querySystem.Version }.Schedule (data.Length, 64, inputDeps);
             inputDeps = new SetNextWaypointJob { data = data, needsWaypoint = needsWaypoint }.Schedule (inputDeps);
             inputDeps = new MovementJob (data, dt).Schedule (data.Length, 64, inputDeps);
             return inputDeps;
