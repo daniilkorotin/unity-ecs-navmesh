@@ -59,7 +59,7 @@ namespace Demo
         {
             if (_manager == null)
             {
-                _manager = World.Active.GetOrCreateManager<EntityManager> ();
+                _manager = World.Active.GetOrCreateSystem<EntityManager> ();
             }
 
             return _manager;
@@ -69,8 +69,8 @@ namespace Demo
         {
             base.OnCreateManager ();
             // create the system
-            World.Active.CreateManager<NavAgentSystem> ();
-            World.Active.GetOrCreateManager<NavAgentToTransfomMatrixSyncSystem> ();
+            World.Active.CreateSystem<NavAgentSystem> ();
+            World.Active.GetOrCreateSystem<NavAgentToTransfomMatrixSyncSystem> ();
             agent = Getmanager ().CreateArchetype (
                 typeof (NavAgent),
                 // optional avoidance

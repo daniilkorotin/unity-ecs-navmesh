@@ -27,7 +27,7 @@ namespace Demo.Behaviours
         private void Start ()
         {
             Renderers = FindObjectsOfType<MeshInstanceRendererComponent> ();
-            entityManager = World.Active.GetOrCreateManager<EntityManager> ();
+            entityManager = World.Active.GetOrCreateSystem<EntityManager> ();
             thisEntity = GetComponent<GameObjectEntity> ().Entity;
             entityManager.AddComponent (thisEntity, typeof (PendingSpawn));
             entityManager.SetComponentData (thisEntity, new PendingSpawn ()

@@ -17,7 +17,7 @@ namespace NavJob.Systems
     {
 
         [BurstCompile]
-        [RequireSubtractiveComponent (typeof (Position), typeof (Rotation))]
+        [RequireSubtractiveComponent (typeof (Translation), typeof (Rotation))]
         private struct NavAgentToTransfomMatrixSyncSystemJob : IJobProcessComponentData<NavAgent, LocalToWorld>
         {
             public void Execute ([ReadOnly] ref NavAgent NavAgent, ref LocalToWorld Matrix)
@@ -41,9 +41,9 @@ namespace NavJob.Systems
     {
         [BurstCompile]
         [RequireComponentTag (typeof (SyncPositionToNavAgent))]
-        private struct NavAgentFromPositionSyncSystemJob : IJobProcessComponentData<NavAgent, Position>
+        private struct NavAgentFromPositionSyncSystemJob : IJobProcessComponentData<NavAgent, Translation>
         {
-            public void Execute (ref NavAgent NavAgent, [ReadOnly] ref Position Position)
+            public void Execute (ref NavAgent NavAgent, [ReadOnly] ref Translation Position)
             {
                 NavAgent.position = Position.Value;
             }
@@ -64,9 +64,9 @@ namespace NavJob.Systems
     {
         [BurstCompile]
         [RequireComponentTag (typeof (SyncPositionFromNavAgent))]
-        private struct NavAgentToPositionSyncSystemJob : IJobProcessComponentData<NavAgent, Position>
+        private struct NavAgentToPositionSyncSystemJob : IJobProcessComponentData<NavAgent, Translation>
         {
-            public void Execute ([ReadOnly] ref NavAgent NavAgent, ref Position Position)
+            public void Execute ([ReadOnly] ref NavAgent NavAgent, ref Translation Position)
             {
                 Position.Value = NavAgent.position;
             }

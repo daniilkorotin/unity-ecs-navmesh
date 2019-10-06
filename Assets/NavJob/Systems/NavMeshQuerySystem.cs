@@ -94,7 +94,7 @@ namespace NavJob.Systems
             {
                 if (_instance == null)
                 {
-                    _instance = World.Active.GetOrCreateManager<NavMeshQuerySystem> ();
+                    _instance = World.Active.GetOrCreateSystem<NavMeshQuerySystem> ();
                 }
                 return _instance;
             }
